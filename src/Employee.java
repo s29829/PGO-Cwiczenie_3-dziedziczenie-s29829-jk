@@ -1,5 +1,4 @@
 public class Employee {
-    public String name;
     public String fname;
     public String lname;
     public String city;
@@ -10,9 +9,9 @@ public class Employee {
     public int age;
     public double salary;
 
-    public Employee(String name, String fname, String city, String email, String pesel, int dateofbirth) {
-        this.name = name;
+    public Employee(String fname, String lname, String city, String email, String pesel, int dateofbirth) {
         this.fname = fname;
+        this.lname = lname;
         this.city = city;
         this.email = email;
         this.pesel = pesel;
@@ -22,7 +21,8 @@ public class Employee {
     //         Developer dev = new Developer("John", "Doe", "New York", "john@doe.com", "123456789", 2020);
     //
     public int calculateSalary() {
-        int salary = 0;
+        int salary = 666;
+//        this salary = salary + salary;
         return salary;
     }
 }

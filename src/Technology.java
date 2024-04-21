@@ -1,8 +1,8 @@
 public class Technology {
     String nameTech;
-    int numerTech;
-    public Technology(String nameTech, int numerTech) {
+    int numTech;
+    public Technology(String nameTech, int numTech) {
         this.nameTech = nameTech;
-        this.numerTech = numerTech;
+        this.numTech = numTech;
     }
 }
