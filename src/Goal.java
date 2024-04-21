@@ -1,14 +1,16 @@
 public class Goal {
-    int i;
-    int i1;
-    int i2;
+    int yearOfGoal;
+    int montOfTheGoal;
+    int dayOfTheGoal;
     int i3;
     String implementingFbLogin;
 
-    public Goal(int i, int i1, int i2, String implementingFbLogin, int i3) {
-        this.i = i;
-        this.i1 = i1;
-        this.i2 = i2;
+
+//         Goal g=new Goal(2010, 10, 15, "Implementing FB login", 1000);
+    public Goal(int yearOfGoal, int montOfTheGoal, int dayOfTheGoal, String implementingFbLogin, int i3) {
+        this.yearOfGoal = yearOfGoal;
+        this.montOfTheGoal = montOfTheGoal;
+        this.dayOfTheGoal = dayOfTheGoal;
         this.implementingFbLogin = implementingFbLogin;
         this.i3 = i3;
 

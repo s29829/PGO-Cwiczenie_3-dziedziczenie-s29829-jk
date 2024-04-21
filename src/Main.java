@@ -1,18 +1,16 @@
 import java.util.ArrayList;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
-// https://github.com/s29829/PGO-Cwiczenie_3-dziedziczenie-s29829-jk.git
+// GIT repo: https://github.com/s29829/PGO-Cwiczenie_3-dziedziczenie-s29829-jk.git
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("PGO-Cwiczenie_3-dziedziczenie-s29829-jk");
         System.out.println("______________________________________________________");
 
 
-        // Import from PDF document
+// Import from PDF document
         ArrayList<Employee> employees = new ArrayList<>();
 // Creating and adding developers
         Developer dev = new Developer("John", "Doe", "New York", "john@doe.com", "123456789", 2020);
