@@ -8,8 +8,8 @@ public class Main {
 // https://github.com/s29829/PGO-Cwiczenie_3-dziedziczenie-s29829-jk.git
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("PGO-Cwiczenie_3-dziedziczenie-s29829-jk");
-        System.out.printf("______________________________________________________");
+        System.out.println("PGO-Cwiczenie_3-dziedziczenie-s29829-jk");
+        System.out.println("______________________________________________________");
 
 
         // Import from PDF document
@@ -34,5 +34,6 @@ public class Main {
             totalAmount += employee.calculateSalary();
         }
         System.out.println("Total amount to be paid this month: " + totalAmount + " USD");
+
     }
 }
