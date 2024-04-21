@@ -2,8 +2,6 @@ import java.util.ArrayList;
 
 public class Developer extends Employee{
 
-//         ArrayList<Employee> employees = new ArrayList<>();
-    //        Developer dev = new Developer("John", "Doe", "New York", "john@doe.com", "123456789", 2020);
 
 ArrayList<Technology> technology = new ArrayList<>();
 

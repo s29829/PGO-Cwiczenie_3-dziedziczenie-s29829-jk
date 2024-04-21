@@ -6,8 +6,10 @@ public class Employee {
     public String pesel;
 
     public int dateofbirth;
-    public int age;
     public double salary;
+
+    //         Developer dev = new Developer("John", "Doe", "New York", "john@doe.com", "123456789", 2020);
+
 
     public Employee(String fname, String lname, String city, String email, String pesel, int dateofbirth) {
         this.fname = fname;
@@ -18,7 +20,6 @@ public class Employee {
         this.dateofbirth = dateofbirth;
     }
 
-    //         Developer dev = new Developer("John", "Doe", "New York", "john@doe.com", "123456789", 2020);
     //
     public int calculateSalary() {
         int salary = 666;

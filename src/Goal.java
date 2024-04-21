@@ -5,8 +5,8 @@ public class Goal {
     int i3;
     String implementingFbLogin;
 
-
 //         Goal g=new Goal(2010, 10, 15, "Implementing FB login", 1000);
+
     public Goal(int yearOfGoal, int montOfTheGoal, int dayOfTheGoal, String implementingFbLogin, int i3) {
         this.yearOfGoal = yearOfGoal;
         this.montOfTheGoal = montOfTheGoal;
