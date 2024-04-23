@@ -1,23 +1,23 @@
 public class Employee {
-    public String fname;
-    public String lname;
+    public String firstName;
+    public String lastName;
     public String city;
     public String email;
-    public String pesel;
+    public String idNumberPesel;
 
-    public int dateofbirth;
+    public int dateBirth;
     public double salary;
 
     //         Developer dev = new Developer("John", "Doe", "New York", "john@doe.com", "123456789", 2020);
 
 
-    public Employee(String fname, String lname, String city, String email, String pesel, int dateofbirth) {
-        this.fname = fname;
-        this.lname = lname;
+    public Employee(String firstName, String lastName, String city, String email, String idNumberPesel, int dateBirth) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.city = city;
         this.email = email;
-        this.pesel = pesel;
-        this.dateofbirth = dateofbirth;
+        this.idNumberPesel = idNumberPesel;
+        this.dateBirth = dateBirth;
     }
 
     //
