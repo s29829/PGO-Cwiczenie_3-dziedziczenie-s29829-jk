@@ -9,7 +9,7 @@ public class Employee {
     private String phone;
     private int dateBirth;
     private int dateRecruitment;
-    private double salary;
+//    private int salary;
 
     Year thisYear = Year.now();
     private int year = thisYear.getValue();
@@ -26,17 +26,25 @@ public class Employee {
         this.dateRecruitment = dateRecruitment;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
     //
     public int calculateSalary() {
         int salary = 3000;
-        this.salary = (numerOfYearsOfWork() * 1000) + salary;
-        System.out.println(this.salary + " // " + salary);
+        salary = (numerOfYearsOfWork() * 1000) + salary;
+//        System.out.println("Employee Salary " + getFirstName() + " " + getLastName() + ": " + salary);
         return salary;
     }
 
     public int numerOfYearsOfWork() {
         int numberOfYears = year - this.dateRecruitment;
-        System.out.println(year + " / / " + this.dateRecruitment);
+//        System.out.println("Ilość przepracowanych lat = " + numberOfYears+" (" + year + "-" + this.dateRecruitment+")");
         return numberOfYears;
     }
 }

@@ -2,15 +2,11 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+    // GIT repo: https://github.com/s29829/PGO-Cwiczenie_3-dziedziczenie-s29829-jk.git
 
-
-// GIT repo: https://github.com/s29829/PGO-Cwiczenie_3-dziedziczenie-s29829-jk.git
-
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
         final int currentlyYear = 2024;
-        System.out.println("PGO-Cwiczenie_3-dziedziczenie-s29829-jk");
-        System.out.println("______________________________________________________");
+        System.out.println("\nPGO-Cwiczenie_3-dziedziczenie-s29829-jk");
+        System.out.println("______________________________________________________\n");
 
 
 // Import from PDF documenta
@@ -30,10 +26,13 @@ public class Main {
         manager.addGoals(g);
         employees.add(manager);
 // Calculating total amount to be paid
+
         int totalAmount = 0;
         for (Employee employee : employees) {
             totalAmount += employee.calculateSalary();
         }
+        System.out.println("______________________________________________________");
+
         System.out.println("Total amount to be paid this month: " + totalAmount + " USD");
 
     }
