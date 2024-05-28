@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class Tester extends Employee{
-//    private String testerType;
 
     ArrayList<String> testsCategories = new ArrayList<>();
 
@@ -17,7 +16,6 @@ public class Tester extends Employee{
         int benefits = 0;
         for (String testCategory : testsCategories) {
             benefits +=  300;
-//            System.out.println("Benefit of " + testCategory + " is " + benefits);
 
         }
         return benefits;

@@ -13,7 +13,6 @@ public class Goal {
     private int monthActual;
     private int dayActual;
 
-//         Goal g=new Goal(2010, 10, 15, "Implementing FB login", 1000);
 
     public Goal(int yearOfGoal, int montOfTheGoal, int dayOfTheGoal, String nameGoal, int bonusGoal) {
         this.yearOfGoal = yearOfGoal;
@@ -25,13 +24,8 @@ public class Goal {
 
     public int getBonusGoal() {
         if (checkDateExpiredGoal()) {
-
-//            System.out.println("Date expired " + checkDateExpiredGoal() + "Status Goal:" + statusGoalPaid + " !" + !statusRealizedGoal);
             return bonusGoal;
         }
-
-//        System.out.println("Bonus Goal: " + bonusGoal);
-//        int (bonusGoal == 0)
         return 0;
     }
 

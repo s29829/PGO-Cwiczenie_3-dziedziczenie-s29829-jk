@@ -18,7 +18,6 @@ public class Developer extends Employee {
     public int calculateSalary() {
         int salary = super.calculateSalary() + calculateTechnologies() ;
         System.out.println("Salary developer "+getFirstName()+ " "+getLastName()+ ": " + salary);
-//        System.out.println("This salary is " + super.thisYear + " // + This " );
         return super.calculateSalary() + calculateTechnologies();
 
     }
@@ -27,7 +26,6 @@ public class Developer extends Employee {
         int totalTechnologies = 0;
         for (Technology technology : technology) {
             totalTechnologies += technology.salaryTech;
-//            System.out.println("Technology: " + technology.nameTech + " // " + technology.salaryTech);
         }
         return totalTechnologies;
     }

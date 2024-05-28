@@ -14,8 +14,6 @@ public class Employee {
     Year thisYear = Year.now();
     private int year = thisYear.getValue();
 
-//         Developer dev = new Developer("John", "Doe", "New York", "john@doe.com", "123456789", 2020);
-
 
     public Employee(String firstName, String lastName, String address, String email, String idNumberPesel, int dateRecruitment) {
         this.firstName = firstName;
@@ -34,17 +32,14 @@ public class Employee {
         return lastName;
     }
 
-    //
     public int calculateSalary() {
         int salary = 3000;
         salary = (numerOfYearsOfWork() * 1000) + salary;
-//        System.out.println("Employee Salary " + getFirstName() + " " + getLastName() + ": " + salary);
         return salary;
     }
 
     public int numerOfYearsOfWork() {
         int numberOfYears = year - this.dateRecruitment;
-//        System.out.println("Ilość przepracowanych lat = " + numberOfYears+" (" + year + "-" + this.dateRecruitment+")");
         return numberOfYears;
     }
 }
